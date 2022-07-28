@@ -9,7 +9,7 @@ const devServerOptions = {...webpackConfig.devServer , open: true};
 const server = new WebpackDevServer(devServerOptions , compiler);
 
 const runServer = async ()=> {
-  console.log('Starting server...');
+  console.log('Starting server at 8040...');
   await server.start();
 }
 
